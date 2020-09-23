@@ -1,7 +1,7 @@
 $('.hideme').hide()
 $('.hideSave').hide()
 var counter = 0
-var counter2=0
+var counter2 = 0
 $('.heart').on('click', function () {
 
     if (counter % 2 === 0) {
@@ -34,13 +34,32 @@ $('.save').on('click', function () {
 
 })
 
-$('.postButton').on('click',function(){
-    var firstSpan=$(`<span class="ml-3" style="font-weight: bold;">Asemnouri</span>`)
-    var secondSpan=$(`<span class="ml-2"></span>`)
-    var comment=$('.submitComment').val()
-    var appendToMe=$('.appendToMe')
+$('.postButton').on('click', function () {
+    var firstSpan = $(`<span class="ml-3" style="font-weight: bold;">Asemnouri</span>`)
+    var secondSpan = $(`<span class="ml-2"></span>`)
+    var comment = $('.submitComment').val()
+    var appendToMe = $('.appendToMe')
     secondSpan.text(comment)
     firstSpan.appendTo(appendToMe)
     secondSpan.appendTo(appendToMe)
     $('<br>').appendTo(appendToMe)
+})
+
+var counter3 = 0
+$('.followBtn').on('click', function () {
+
+    if (counter3 % 2 === 1) {
+        $(this).text('Follow')
+        counter3++
+    } else {
+        $(this).text('Unfollow')
+        counter3++
+    }
+    if (counter % 2 === 0) {
+        setTimeout(function () {
+            $('.deleteMe').remove()
+
+        }, 2000)
+    }
+
 })
