@@ -33,3 +33,14 @@ $('.save').on('click', function () {
     }
 
 })
+
+$('.postButton').on('click',function(){
+    var firstSpan=$(`<span class="ml-3" style="font-weight: bold;">Asemnouri</span>`)
+    var secondSpan=$(`<span class="ml-2"></span>`)
+    var comment=$('.submitComment').val()
+    var appendToMe=$('.appendToMe')
+    secondSpan.text(comment)
+    firstSpan.appendTo(appendToMe)
+    secondSpan.appendTo(appendToMe)
+    $('<br>').appendTo(appendToMe)
+})
