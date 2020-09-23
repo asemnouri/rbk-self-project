@@ -87,8 +87,7 @@
                                     <div>
                                         <div
                                             class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border border-danger story-profile-photo">
-                                            <img src="images/profiles/profile-1.jpg" alt="picture"
-                                                style="width: 100%">
+                                            <img src="images/profiles/profile-1.jpg" alt="picture" style="width: 100%">
                                         </div>
                                         <small>Nature</small>
                                     </div>
@@ -99,8 +98,7 @@
                                     <div class="d-flex flex-column align-items-center">
                                         <div
                                             class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border border-danger story-profile-photo">
-                                            <img src="images/profiles/profile-2.png" alt="picture"
-                                                style="width: 100%">
+                                            <img src="images/profiles/profile-2.png" alt="picture" style="width: 100%">
                                         </div>
                                         <small>fcbarcelona<svg class="ml-1" width="1em" height="1em" viewBox="0 0 16 16"
                                                 class="bi bi-check-circle-fill" fill="currentColor"
@@ -145,17 +143,23 @@
                     <!-- picture and body of the post  -->
                     <div class="card-body p-0">
                         <div class="overflow-hidden">
-                            <img src="images/posts/post-1.png" class="card-img-topembed-responsive-item"
-                                alt="..." style="width: 100%;">
+                            <img src="images/posts/post-1.png" class="card-img-topembed-responsive-item" alt="..."
+                                style="width: 100%;">
                         </div>
                         <div class="d-flex flex-row justify-content-between p-2">
                             <ul class="list-inline d-flex flex-row align-items-center m-0">
                                 <li class="list-inline-item">
                                     <button class="btn p-0 heart">
-                                        <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-heart"
+                                        <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-heart showme"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd"
                                                 d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                        </svg>
+                                        <svg width="1.6em" height="1.6em" viewBox="0 0 16 16"
+                                            class="bi bi-heart-fill hideme" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
                                         </svg>
                                     </button>
                                 </li>
@@ -181,17 +185,25 @@
                                 </li>
                             </ul>
                             <div>
-                                <button class="btn p-0">
-                                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-bookmark"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <button class="btn p-0 save">
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
+                                        class="bi bi-bookmark showSave" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd"
                                             d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                    </svg>
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
+                                        class="bi bi-bookmark-fill hideSave" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5V2z" />
                                     </svg>
                                 </button>
                             </div>
                         </div>
                         <div>
-                            <span style="font-weight: bold;" class="ml-3 pb-2">123,456 likes</span><br>
+                            <span style="font-weight: bold;" class="ml-3 pb-2 increaseNumber">123456</span><span
+                                style="font-weight: bold;" class="pb-2"> likes</span><br>
                             <span style="font-weight: bold;" class="ml-3">fcbarcelona</span><span class="ml-2">Welcome
                                 FC Barcelona</span><br>
                             <span style="font-weight: bold; opacity: 0.4;" class="ml-3 pb-2">view all 12,546
@@ -236,17 +248,24 @@
                     <!-- picture and body of the post  -->
                     <div class="card-body p-0">
                         <div class="overflow-hidden">
-                            <img src="images/posts/post-2.jpg" class="card-img-topembed-responsive-item"
-                                alt="..." style="height:500px;">
+                            <img src="images/posts/post-2.jpg" class="card-img-topembed-responsive-item" alt="..."
+                                style="height:500px;">
                         </div>
                         <div class="d-flex flex-row justify-content-between p-2">
                             <ul class="list-inline d-flex flex-row align-items-center m-0">
                                 <li class="list-inline-item">
                                     <button class="btn p-0 heart">
-                                        <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-heart"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="1.6em" height="1.6em" viewBox="0 0 16 16"
+                                            class="bi bi-heart showme " fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd"
                                                 d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                        </svg>
+                                        <svg width="1.6em" height="1.6em" viewBox="0 0 16 16"
+                                            class="bi bi-heart-fill hideme" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
                                         </svg>
                                     </button>
                                 </li>
@@ -272,11 +291,18 @@
                                 </li>
                             </ul>
                             <div>
-                                <button class="btn p-0">
-                                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-bookmark"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <button class="btn p-0 save">
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
+                                        class="bi bi-bookmark showSave" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd"
                                             d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                    </svg>
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
+                                        class="bi bi-bookmark-fill hideSave" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5V2z" />
                                     </svg>
                                 </button>
                             </div>
@@ -313,8 +339,8 @@
                                     style="transform: scale(1.5); width: 100%; position: absolute; ">
                             </div>
                             <div class="profile-info ml-3 ">
-                                <span class="profile-info-username">codingvenue</span>
-                                <span class="profile-info-name" style='opacity:0.6;'>Coding Venue</span>
+                                <span class="profile-info-username">Asemnouri</span>
+                                <span class="profile-info-name" style='opacity:0.6;'>Asemnouri</span>
                             </div>
 
                         </div>
@@ -332,8 +358,8 @@
                                     </div>
 
                                     <div class="profile-info ml-3 ">
-                                        <span class="profile-info-username">codingvenue</span>
-                                        <span class="profile-info-name" style='opacity:0.6;'>Coding Venue</span>
+                                        <span class="profile-info-username">Robert-DJ</span>
+                                        <span class="profile-info-name" style='opacity:0.6;'>Robert-DJ</span>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-sm btn-ig p-0 ">Follow</button>
@@ -346,8 +372,8 @@
                                             style="transform: scale(1.5); width: 100%; position: absolute; ">
                                     </div>
                                     <div class="profile-info ml-3 ">
-                                        <span class="profile-info-username">codingvenue</span>
-                                        <span class="profile-info-name" style='opacity:0.6;'>Coding Venue</span>
+                                        <span class="profile-info-username">Sami</span>
+                                        <span class="profile-info-name" style='opacity:0.6;'>Sami</span>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-sm btn-ig p-0 ">Follow</button>
@@ -360,8 +386,8 @@
                                             style="transform: scale(2.2); width: 100%; position: absolute; ">
                                     </div>
                                     <div class="profile-info ml-3 ">
-                                        <span class="profile-info-username">codingvenue</span>
-                                        <span class="profile-info-name" style='opacity:0.6;'>Coding Venue</span>
+                                        <span class="profile-info-username">Mohammed</span>
+                                        <span class="profile-info-name" style='opacity:0.6;'>Mohammed</span>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-sm btn-ig p-0">Follow</button>
@@ -374,8 +400,8 @@
                                             style="transform: scale(5); width: 100%; position: absolute; ">
                                     </div>
                                     <div class="profile-info ml-3 ">
-                                        <span class="profile-info-username">codingvenue</span>
-                                        <span class="profile-info-name" style='opacity:0.6;'>Coding Venue</span>
+                                        <span class="profile-info-username">Hasan</span>
+                                        <span class="profile-info-name" style='opacity:0.6;'>Hasan</span>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-sm btn-ig p-0">Follow</button>
