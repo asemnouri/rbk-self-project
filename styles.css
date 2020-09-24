@@ -20,28 +20,16 @@
    margin-right: 120px
 } */
 
-.topbar-profile-photo {
+.picture{
     width: 1.5em; 
     height: 1.5em; 
     position: relative;
 } 
 
-.story-profile-photo {
+.pictures {
     width: 50px; 
     height: 50px; 
     position: relative;
-}
-
-.post-profile-photo {
-    width: 50px; 
-    height: 50px; 
-    position: relative; 
-}
-
-.sidenav-profile-photo {
-    width: 50px; 
-    height: 50px; 
-    position: relative; 
 }
 
 .right-card-margin{
@@ -56,31 +44,18 @@
     font-size: 14px;
 }
 
-.btn-ig {
+.followBtn {
     background-color: transparent;
     border: 0;
     color: #007bff;
     font-weight: 600;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    outline: none !important;
 }
 
-.profile-info-username {
+.info {
     display: block;
     font-weight: 700;
 }
 
-.sugest-profile-photo {
-    width: 46px; 
-    height: 46px;  
-    position: relative;
-}
-
-.sugest-username {
-    font-size: 14px
-}
 .no-border{
     border-style: none;
 }
